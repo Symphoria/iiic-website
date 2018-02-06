@@ -3771,4 +3771,6 @@ html {
     -webkit-box-shadow: none;
 }
 
-
+#royal_preloader {
+    background-color: none;
+}

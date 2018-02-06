@@ -147,7 +147,7 @@ include("header.php");
 					<center><h3>Who we are</h3></center>
 					<br>
 					<div class="col-lg-12 col-md-12 sm-text-center xs-no-padding-lr last-paragraph-no-margin margin-60px-bottom sm-margin-30px-bottom"> 
-						<p class="width-90 sm-width-100">IIITA Info-Communication Incubation Center also known as IIIC is a Business Incubator set up under the aegis of IIIT-Allahabad catalyzed and supported by the Department of **Science and Technology** under the Startup India Project of Govt. of India. IIIC seeks to contribute, both to the advancement of knowledge and the practice of Innovation and Entrepreneurship.</p>
+						<p class="width-90 sm-width-100">IIITA Info-Communication Incubation Center also known as IIIC is a Business Incubator set up under the aegis of IIIT-Allahabad catalyzed and supported by the Department of **Electronics and Technology** under the Startup India Project of Govt. of India. IIIC seeks to contribute, both to the advancement of knowledge and the practice of Innovation and Entrepreneurship.</p>
 						<p class="width-90 sm-width-100">We are a unique collaboration and education space designed to foster innovation and entrepreneurship across the country. We are committed to growing a  collaborative entrepreneurial network by providing a one-stop support system for start-ups and transforming ourselves as a hub for innovation. We believe that entrepreneurship has an unmatched ability to bring about disruptive change in India and engage with ventures across technology. We support and nurture startup companies by providing services such as incubation, mentoring, networking opportunities, seed funding, office spaces and rapid prototyping.  </p>
 					</div>
 				
