@@ -17,13 +17,13 @@ include("header.php");
           </div>
 
 
-            <div class="col-md-12 no-padding xs-padding-15px-lr">
+            <div class="col-md-3 no-padding xs-padding-15px-lr">
                 <div class="filter-content overflow-hidden">
-                    <ul class="portfolio-grid work-4col gutter-medium hover-option7">
+                    <ul class="portfolio-grid gutter-medium hover-option7">
                         <li class="grid-sizer"></li>
                         <!-- start portfolio item -->
                         <li class="grid-item web branding design wow fadeInUp">
-                            <a href="./single-project-page-01.html">
+                            <a href="">
                                 <figure>
                                     <div class="portfolio-img"><img src="img/nagabhushan.jpg" style="height:400px;width:300px;" alt="" /></div>
                                     <figcaption>
@@ -39,10 +39,17 @@ include("header.php");
                                 </figure>
                             </a>
                         </li>
+						</ul>
+                    </div>
+                  </div>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
+				<div class="col-md-3 no-padding xs-padding-15px-lr">
+                <div class="filter-content overflow-hidden">
+                    <ul class="portfolio-grid gutter-medium hover-option7">
+                        <li class="grid-sizer"></li>
                         <li class="grid-item design photography wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="./single-project-page-02.html">
+                            <a href="">
                                 <figure>
                                     <div class="portfolio-img"><img src="img/lahiri.jpg" style="height:400px;width:300px;" alt="" /></div>
                                     <figcaption>
@@ -58,10 +65,17 @@ include("header.php");
                                 </figure>
                             </a>
                         </li>
+						</ul>
+                    </div>
+                  </div>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
+						<div class="col-md-3 no-padding xs-padding-15px-lr">
+                <div class="filter-content overflow-hidden">
+                    <ul class="portfolio-grid gutter-medium hover-option7">
+                        <li class="grid-sizer"></li>
                         <li class="grid-item web branding design photography wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="./single-project-page-03.html">
+                            <a href="">
                                 <figure>
                                     <div class="portfolio-img"><img src="img/rkala.png" style="height:400px;width:300px;" alt="" /></div>
                                     <figcaption>
@@ -77,10 +91,17 @@ include("header.php");
                                 </figure>
                             </a>
                         </li>
+						</ul>
+                    </div>
+                  </div>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
+						<div class="col-md-3 no-padding xs-padding-15px-lr">
+                <div class="filter-content overflow-hidden">
+                    <ul class="portfolio-grid gutter-medium hover-option7">
+                        <li class="grid-sizer"></li>
                         <li class="grid-item advertising branding design photography wow fadeInUp" data-wow-delay="0.6s">
-                            <a href="./single-project-page-04.html">
+                            <a href="">
                                 <figure>
                                     <div class="portfolio-img"><img src="img/ranjitsingh.jpg" style="height:400px;width:300px;" alt="" /></div>
                                     <figcaption>

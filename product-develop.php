@@ -53,7 +53,7 @@ include("header.php");
             $upload_file = $upload_dir . basename($hashed_filename);
             // move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file);
             if (move_uploaded_file($_FILES["requirements"]['tmp_name'], $upload_file)) {
-                $statement->bind_param("sssssss", $name, $number, $email, $require1, $plan, $pay_type, $dev_team,
+                $statement->bind_param("ssssssssss", $name, $number, $email, $require1, $plan, $pay_type, $dev_team,
                                     $recruit, $file_name ,$hashed_filename);
 
                 if ($statement->execute()) {

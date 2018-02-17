@@ -30,9 +30,8 @@ include("header.php");
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
                                             <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -55,11 +54,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href=" https://www.facebook.com/abhishekdnandan" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/abhishek4nandan" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -98,11 +95,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -124,11 +119,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -155,24 +148,18 @@ include("header.php");
             <div class="container-fluid padding-thirteen-lr md-padding-six-lr">
                 <div class="row">
                     <!-- start team item -->
-					<center>
-                    <div class="col-md-1 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp">
-                        
-                    </div>
                     <!-- end team item -->
                     <!-- start team item -->
                     <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
                         <figure>
                             <div class="team-image xs-width-100">
-                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14938377_369252736753960_3158738284587563039_n.jpg?oh=bab495dc80ff5f0015e90441ceac4c0d&oe=5B26CF18" alt="" />
+                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14938377_369252736753960_3158738284587563039_n.jpg?oh=bab495dc80ff5f0015e90441ceac4c0d&oe=5B26CF18" alt="" style="height:220px;width:220px;" />
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                         <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+  </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -194,18 +181,16 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/pasanjanwala" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/pranjalsanjanwala/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Pranjal</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Pranjal Sanjanwala</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Public Relations</div>
                                 </div>   
                             </figcaption>
@@ -220,11 +205,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -237,8 +220,29 @@ include("header.php");
                             </figcaption>
                         </figure>
                     </div>
+					 <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <figure>
+                            <div class="team-image xs-width-100">
+                                <img src="./img/madhur.jpg" alt="" />
+                                <div class="overlay-content text-center">
+                                    <div class="display-table height-100 width-100">
+                                        <div class="vertical-align-middle display-table-cell icon-social-small">
+                                           <a href="https://www.facebook.com/madhurguptaiiita" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/madhurguptaiiita" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
+                                    </div>
+                                </div>
+                                <div class="team-overlay bg-deep-pink opacity8"></div>
+                            </div>
+                            <figcaption>
+                                <div class="team-member-position margin-20px-top text-center">
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Madhur Gupta</div>
+                                    <div class="text-extra-small text-uppercase text-medium-gray">Public Relations</div>
+                                </div>   
+                            </figcaption>
+                        </figure>
+                    </div>
                     <!-- end team item -->
-					</center>
                 </div> 
             </div>
         </section>
@@ -248,66 +252,85 @@ include("header.php");
                 <div class="row">
                     <!-- start team item -->
 					<center>
-                    <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp">
+                    <div class="col-md-4 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp">
+                    <center><figure>
+                            <div class="team-image xs-width-100">
+                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/26731145_1900220706960106_3586460535295247022_n.jpg?oh=91ffea25380724faedb4ef4d2d5597f2&oe=5B21F824" alt="" style="height:220px;width:220px;" />
+                                <div class="overlay-content text-center">
+                                    <div class="display-table height-100 width-100">
+                                        <div class="vertical-align-middle display-table-cell icon-social-small">
+                                           <a href=" https://www.facebook.com/profile.php?id=100009165867985" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href=" https://www.linkedin.com/in/pradeepshakya/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
+                                    </div>
+                                </div>
+                                <div class="team-overlay bg-deep-pink opacity8"></div>
+                            </div>
+                            <figcaption>
+                                <div class="team-member-position margin-20px-top text-center">
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Pradeep Shakya</div>
+                                    <div class="text-extra-small text-uppercase text-medium-gray">Marketing</div>
+                                </div>   
+                            </figcaption>
+                        </figure>
+                        </center>
                         
                     </div>
                     <!-- end team item -->
                     <!-- start team item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-4 col-sm-6 col-xs-12 team-block text-left team-style-1 sm-margin-30px-bottom xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.2s">
+                    <center>
                         <figure>
                             <div class="team-image xs-width-100">
-                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/c51.87.472.472/s160x160/24796419_1585996041461313_6751381316370031324_n.jpg?oh=39e336c4d10f8c04e713cc44aa80c080&oe=5B2026B7" alt="" />
+                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/c51.87.472.472/s160x160/24796419_1585996041461313_6751381316370031324_n.jpg?oh=39e336c4d10f8c04e713cc44aa80c080&oe=5B2026B7" alt="" style="height:220px;width:220px;" />
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/unfinished.symphony" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/akanksha-bhardwaj/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Akansha</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Akanksha Bhardwaj</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Marketing</div>
                                 </div>   
                             </figcaption>
                         </figure>
+                        </center>
                     </div>
                     <!-- end team item -->
                     <!-- start team item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-4 col-sm-6 col-xs-12 team-block text-left team-style-1 xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.4s">
+                    <center>
                         <figure>
                             <div class="team-image xs-width-100">
-                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/25498134_1626875074038694_1542121658905303942_n.jpg?oh=f909c17b4c161c2816d5bd6f7e8f1d1a&oe=5AE62AC4" alt="" />
+                                <img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/25498134_1626875074038694_1542121658905303942_n.jpg?oh=f909c17b4c161c2816d5bd6f7e8f1d1a&oe=5AE62AC4" alt="" style="height:220px;width:220px;"/>
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href=" https://www.facebook.com/falafelraider" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/bhanubhandari99/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Bhanu</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Bhanu Bhandari</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Marketing</div>
                                 </div>   
                             </figcaption>
                         </figure>
+                        </center>
                     </div>
                     <!-- end team item -->
                     <!-- start team item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 team-block text-left team-style-1 wow fadeInUp" data-wow-delay="0.6s">
-                       
-                    </div>
+                    
                     <!-- end team item -->
 					</center>
                 </div> 
@@ -326,18 +349,16 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                          <a href="https://www.facebook.com/rao.yaver.1" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/rao-yaver-922490140/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Yaver</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Rao Yaver</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Events</div>
                                 </div>   
                             </figcaption>
@@ -352,18 +373,16 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/mradul.mk" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/mradul-kumar-829047143/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Mradul</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Mradul Kumar</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Events</div>
                                 </div>   
                             </figcaption>
@@ -379,17 +398,15 @@ include("header.php");
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
                                             <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Siddhant</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Siddhant Srivastav</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Events</div>
                                 </div>   
                             </figcaption>
@@ -404,18 +421,16 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/shreyansh.dwivedi.18" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/shreyansh-dwivedi/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Shreyansh </div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Shreyansh Dwivedi</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Events</div>
                                 </div>   
                             </figcaption>
@@ -444,18 +459,16 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
                             </div>
                             <figcaption>
                                 <div class="team-member-position margin-20px-top text-center">
-                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Aditi</div>
+                                    <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">Aditi Agrawal</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Media</div>
                                 </div>   
                             </figcaption>
@@ -470,11 +483,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/roop.krrish" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/l-roopesh-krishna-9bb957110/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -515,11 +526,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="https://www.facebook.com/arindam.dasmodak1" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/arindam-das-modak-065822139/" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
@@ -541,11 +550,9 @@ include("header.php");
                                 <div class="overlay-content text-center">
                                     <div class="display-table height-100 width-100">
                                         <div class="vertical-align-middle display-table-cell icon-social-small">
-                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="http://www.twitter.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="http://www.plus.google.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                            <a href="http://www.instagram.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
+                                           <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="http://www.facebook.com" class="text-white text-white-hover" target="_blank"><i class="fa fa-linkedin"></i></a>
+ </div>
                                     </div>
                                 </div>
                                 <div class="team-overlay bg-deep-pink opacity8"></div>
