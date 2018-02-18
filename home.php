@@ -156,7 +156,7 @@ include("header.php");
                         <center><h3>Our Vision</h3></center>                        
                         <!-- star feature box item -->
                         <div class="col-md-6 col-sm-6 xs-margin-30px-bottom last-paragraph-no-margin xs-no-padding-lr sm-text-center">
-                            <i class="fa fa-line-chart" style="font-size:48px;color:blue"></i>
+                            <i class="fa fa-line-chart" style="font-size:48px;color:blue;"></i>
                             <div class="feature-content">
                                 <div class="alt-font font-weight-500 text-extra-dark-gray margin-5px-bottom">Attract innovative and promising startups and aspiring entrepreneurs</div>
                             </div> 

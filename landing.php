@@ -64,10 +64,17 @@
 						</ul>
 				</div>
 				<!-- Fixed Text -->
+				<h4 class="fixed-text" style="color: #226593; margin-top: 5%; font-weight: 600; font-size: 40px;">To apply for Business Plan Writing Contest <a style="color: #ffffff;" href="/apply.php">Click Here</a></h4>
+				
 
 			</div><!-- End Home Texts -->
-		</div><!-- End Home Details -->		<div style="bottom:10px; color:white !important; position:absolute; left:52%; margin:-75px 0 0 -135px;">
-			<a href="/home.php">Continue to Main Website >></a>
+			
+		</div><!-- End Home Details -->	
+		<!-- <h5 class="fixed-text" style="color: #226593; margin-top: ; font-weight: 600; font-size: 20px;"><a style="color: #ffffff;" href="/apply.php">Click Here</a> to go to main website</h5> -->
+		<div style="bottom:10px; color:white !important; position:absolute; left:48%; margin:-75px 0 0 -135px;">
+			
+			<!-- <a href="/home.php">Continue to Main Website</a> -->
+			<h5 class="fixed-text" style="color: #226593; margin-top: ; font-weight: 600; font-size: 20px;"><a style="color: #ffffff;" href="/home.php">Click Here to go to main website</a></h5>
 		</div>
 	</section><!-- End Home Section -->
 	<style type="text/css">
