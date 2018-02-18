@@ -32,12 +32,58 @@ include("header.php");
         }
     }
 ?>
-		
+		<br><br><br>
         <div id="home-revslider" class="homeslider-section-7 container-fluid no-padding ">
 		<!-- START REVOLUTION SLIDER 5.0 -->
 		<div class="rev_slider_wrapper">
 			<div id="home-slider7" class="rev_slider" data-version="5.0">
 				<ul> 
+				<li data-transition="fade" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"> 
+						<!-- MAIN IMAGE -->
+						<img src="img/bplan1.jpg" alt="home1"  width="1220" height="1032">
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-1" 
+							data-x="['left','left','left','left']" data-hoffset="['360','360','360','360']" 
+							data-y="['top','top','top','top']"  data-voffset="['530','530','530','530']" 
+							data-fontsize="['32','32','32','32']"
+							data-lineheight="['30','30','30','30']"
+							data-width="none"
+							data-height="none"
+							data-whitespace="nowrap"
+							data-transform_idle="o:1;"
+							data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+							data-start="1000" 
+							data-splitin="chars" 
+							data-splitout="none" 
+							data-responsive_offset="on"
+							data-elementdelay="0.05"							
+							style="z-index:6; position:relative; color:#fff; font-weight:400; letter-spacing:0; font-family: 'Montserrat', sans-serif;">IIITA
+						</div>
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0"
+							id="slide-1-layer-2" 
+							data-x="['left','left','left','left']" data-hoffset="['358','358','358','358']" 
+							data-y="['top','top','top','top']" data-voffset="['580','420','420','420']" 
+							data-fontsize="['56','56','56','56']"
+							data-lineheight="['50','50','50','50']"
+							data-width="auto"
+							data-height="none"
+							data-whitespace="noraml"
+							data-transform_idle="o:1;"
+							data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+							data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+							data-start="1500" 
+							data-splitin="none" 
+							data-splitout="none"							
+							data-responsive_offset="on"	
+							style="z-index: 6; position:relative; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: bold; color: #fff; letter-spacing:0;"><a href="submit-bplan.php">Apply Now</a>
+						</div>
+					</li>
 					<li data-transition="fade" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"> 
 						<!-- MAIN IMAGE -->
 						<img src="img/placeholder1.jpg" alt="home1"  width="1220" height="1032">
