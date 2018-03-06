@@ -64,7 +64,7 @@
 						</ul>
 				</div>
 				<!-- Fixed Text -->
-				<h4 class="fixed-text" style="color: #226593; margin-top: 5%; font-weight: 600; font-size: 40px;">To apply for Business Plan Writing Contest <a style="color: #ffffff;" href="/apply.php">Click Here</a></h4>
+				<h4 class="fixed-text" style="color: #0088e4; margin-top: 5%; font-weight: 600; font-size: 40px;text-shadow: 1px 1px #000001;">To apply for Business Plan Writing Contest <a style="color: #ffffff; text-shadow: none;" href="/apply.php">Click Here</a></h4>
 				
 
 			</div><!-- End Home Texts -->

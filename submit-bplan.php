@@ -30,17 +30,21 @@ include("header.php");
 	{
 			$email=$_REQUEST['email'];
 	}
-	$message='';
+	$number='';
 	if(isset($_REQUEST['number']))
 	{
-			$message=$_REQUEST['number'];
+			$number=$_REQUEST['number'];
 	}
 	$plan='';
 	if(isset($_REQUEST['plan']))
 	{
-			$message=$_REQUEST['plan'];
+			$plan=$_REQUEST['plan'];
 	}
-	$is_attach=0;
+	$is_attach=1;
+
+	$upload_dir = '/data/iiic/uploads/';
+	$error_message = '';
+	$upload_file = '';
 	if(isset($_FILES['business-plan']['name'])) {
              $UploadName = $_FILES['business-plan']['name'];
              $UploadTmp = $_FILES['business-plan']['tmp_name'];
@@ -48,12 +52,13 @@ include("header.php");
              
             //  $UploadName = preg_replace("#[^a-z0-9.]#i","", $UploadName);
              $is_attach=1;
-            //  if(!$UploadTmp) {
-            //         die("No File Selected, Please Upload Again");
-            //  }else{
-            //       $is_attach=1;
-			// 	  move_uploaded_file($UploadTmp,"uploads/".$UploadName);
-			//  }
+             if(!$UploadTmp) {
+                    die("No File Selected, Please Upload Again");
+             }else{
+				  $is_attach=1;
+				  $upload_file = $upload_dir . basename($name."_bplan.pdf");
+				  move_uploaded_file($UploadTmp,$upload_file);
+			 }
 	}
 	if($name!='' && $email!='' && $message!='')
 	{
@@ -81,34 +86,37 @@ include("header.php");
 			//$mail->addBCC('bcc@example.com');
 
 			//Attachments
-			if($is_attach==1)
-			// $mail->addAttachment($UploadTmp, $name."_b_plan.pdf");         // Add attachments
+			if($is_attach==1) {
+				$mail->addAttachment($upload_file, $name."_b_plan.pdf");         // Add attachments
+			}
+			
 			//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
 			//Content
 			$mail->isHTML(false);                                  // Set email format to HTML
 			$mail->Subject = 'B-plan Submission';
-			$message = 'From: '.$email.'\n'.$message;
+			$message = 'From: '.$email.'   Number: '.$number.'\n'.'Plan: '.$plan;
 			$mail->Body    = $message;
 			
 			//$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 			$mail->send();
 			//echo 'Message has been sent';
-			echo '<script type="text/javascript">alert("Message has been sent")</script>';
+			$error_message = "Submitted Successfully";
 		}
 		catch (Exception $e) {
-			echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+			$error_message = "There was some error. Please try again after some time";
 		}
 	}
-?>
+?>	
+	<center><h6 style="margin-top: 9%; color: #f44242;" class="alt-font font-weight-300 letter-spacing-minus-1"><?php echo $error_message;?></h6></center>
 	<center><h6 style="margin-top: 9%;" class="alt-font font-weight-300 letter-spacing-minus-1 text-extra-dark-gray">Have a business plan? Not sure if it's viable?</h6></center>
 	<center><h4 class="alt-font font-weight-400 letter-spacing-minus-1 text-extra-dark-gray">Get it Reviewed</h4></center>
     <span class="separator-line-horrizontal-medium-light2 bg-deep-pink display-table margin-auto width-100px"></span>
 	<center><p style="margin-top: 3%">Our experts will help you in hand crafting a Business Plan that is right for you and offer suggestions.</p></center>
 	<section class="wow fadeIn" id="start-your-project">
 		<div class="container">
-			<form id="project-contact-form" action="submit-blan.php" method="post" enctype="multipart/form-data"/>
+			<form id="project-contact-form" action="submit-bplan.php" method="post" enctype="multipart/form-data"/>
 				<div class="row">
 						<div class="col-md-12">
 							<div id="success-project-contact-form" class="no-margin-lr"></div>

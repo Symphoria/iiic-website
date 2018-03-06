@@ -64,14 +64,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+                        <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1" style="padding: -20px">
                         
                             <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                 <!-- start menu item <-->
                                 
-                                    <li class="">
-                                        <a href="home.php" title="Home">Home</a>
-                                    </li>
+                                    
                                  
                                     <li class="">
                                         <a href="why-iiic.php" title="Why IIIC">Why IIIC</a>
@@ -90,11 +88,14 @@
                                     <li class="">
                                         <a href="apply.php" title="Apply">Apply</a>
                                     </li>
+                                    <!-- <li class="">
+                                        <a href="submit-bplan.php" title="Apply">Submit B-Plan</a>
+                                    </li> -->
                                     <li class="">
                                         <a href="events.php" title="Events">Events</a>
                                     </li>
                                     <li class="">
-                                        <a href="product-develop.php" title="Events">Product Development Cell</a>
+                                        <a href="product-develop.php" title="Events">Product Dev Cell</a>
                                     </li>
                                     <li class="">
                                         <a href="contact.php" title="Contact Us">Contact Us</a>

@@ -26,6 +26,11 @@
 
 <?php
     require 'vendor/autoload.php';
+
+    set_time_limit(300);
+    ini_set('max_execution_time', 300);
+    ini_set('max_input_time', 300);
+
     $message = "";
 
     if (isset($_REQUEST['recruiterBtn'])) {
@@ -37,6 +42,7 @@
         $current_nature = $_REQUEST['current-nature'];
         $proposal_for = $_REQUEST['proposal-for'];
         $tide_scheme = $_REQUEST['tide-scheme'];
+        $drive_link = $_REQUEST['drive-link'];
         
         $upload_dir = '/data/iiic/uploads/';
         // $upload_dir = 'uploads/';
@@ -44,7 +50,7 @@
 
         if (empty($_FILES) && empty($_POST)) {
             $message = 'The uploaded zip was too large. You must upload a file smaller than ' . ini_get("upload_max_filesize");
-        } else if ($name != "" && $phone_no != "" && $email != "" && $summary != "" && $current_position != "" && $current_nature != "" && $file_name != "") {
+        } else if ($name != "" && $phone_no != "" && $email != "") {
             $connection = new mysqli("127.0.0.1", "iiicdba", "iiicdb@2018", "iiicdb");
             // $connection = new mysqli("127.0.0.1", "root", "root", "iiic");
 
@@ -55,72 +61,81 @@
             $statement = $connection->prepare("INSERT INTO Recruiter (name, email, phone_no, summary, 
                                     current_position, current_nature, proposal_for, tide_scheme, idea_file, file_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-            $file_hash = hash_file("sha256", $_FILES["business-plan"]['tmp_name']);
-            $hashed_filename = $file_hash;
-            $upload_file = $upload_dir . basename($hashed_filename);
-            // move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file);
-            if (move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file)) {
-                $statement->bind_param("ssssssssss", $name, $email, $phone_no, $summary, $current_position, $current_nature, $proposal_for, $tide_scheme,
-                                    $file_name, $hashed_filename);
+            if ($_FILES["business-plan"]['tmp_name'] != '') {
+                $file_hash = hash_file("sha256", $_FILES["business-plan"]['tmp_name']);
+                $hashed_filename = $file_hash;
+                $upload_file = $upload_dir . basename($hashed_filename);
 
-                if ($statement->execute()) {
-                    $message = "Submitted your current_nature Successfully";
+                if (move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file)) {
+                    
                 } else {
-                    $message = "There was some error";
-                }
-
-                $mail = new PHPMailer(true);                             
-                try {
-                    //Server settings
-                    
-                    $mail->isSMTP();                                    // Set mailer to use SMTP
-                    $mail->Host = "smtp.gmail.com";  // Specify main and backup SMTP servers
-                    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                    $mail->Username = 'iiic@iiita.ac.in';                 // SMTP username
-                    $mail->Password = 'ecell@iiic18';                           // SMTP password
-                    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-                    $mail->Port = 465;                                    // TCP port to connect to
-
-                    //Recipients
-                    $mail->Subject = 'Contact Us query email';
-                    $mail->setFrom("iiic@iiita.ac.in", $name);
-			        $mail->addAddress("iiic@iiita.ac.in");  
-			        // $mail->AddReplyTo($email, $name);   // Add a recipient    // Add a recipient
-                    //$mail->addAddress('ellen@example.com');               // Name is optional
-                    //$mail->addReplyTo('info@example.com', 'Information');
-                    //$mail->addCC('cc@example.com');
-                    //$mail->addBCC('bcc@example.com');
-
-                    //Attachments
-                    $files_to_attach = $_FILES["business-plan"]['tmp_name']; 
-                    // $mail->AddAttachment($files_to_attach, $file_name); 
-                    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-                       // Optional name
-
-                    //Content
-                    $mail->isHTML(false);                                  // Set email format to HTML
-                    $mail->Subject = 'Application for Incubation';
-                    $mes = 'Name: '.$name.'  Email: '.$email.'  Phone: '.$phone_no.'  Executive Summary: '.$summary.'  Brief of current position: '.$current_position.'  Brief of current nature of the company: '.$current_nature.'  Proposal for: '.$proposal_for.'  Applying for tide scheme: '.$tide_scheme;
-                    $mail->Body = $mes;
-                    
-                    
-                    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-                    $mail->send();
-                    //echo 'Message has been sent';
-                    $message = "Application Submitted Successfully";
-                }
-                catch (Exception $e) {
-                    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+                    $message = "There was some error.";
                 }
             } else {
-                $message = "There was some error. Please try again";
+                $hashed_filename = "none";
             }
-                       
-            $statement->close();
+            
+            $statement->bind_param("ssssssssss", $name, $email, $phone_no, $summary, $current_position, $current_nature, $proposal_for, $tide_scheme,
+                                        $drive_link, $hashed_filename);
+
+            if ($statement->execute()) {
+                $message = "Submitted your Application Successfully";
+            } else {
+                $message = "There was some error. Please try again.";
+            }
+
+            $mail = new PHPMailer(true);                             
+            try {
+                //Server settings
+                
+                $mail->isSMTP();                                    // Set mailer to use SMTP
+                $mail->Host = "smtp.gmail.com";  // Specify main and backup SMTP servers
+                $mail->SMTPAuth = true;                               // Enable SMTP authentication
+                $mail->Username = 'iiic@iiita.ac.in';                 // SMTP username
+                $mail->Password = 'ecell@iiic18';                           // SMTP password
+                $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+                $mail->Port = 465;                                    // TCP port to connect to
+
+                //Recipients
+                $mail->Subject = 'Contact Us query email';
+                $mail->setFrom("iiic@iiita.ac.in", $name);
+                $mail->addAddress("iiic@iiita.ac.in");  
+                // $mail->AddReplyTo($email, $name);   // Add a recipient    // Add a recipient
+                //$mail->addAddress('ellen@example.com');               // Name is optional
+                //$mail->addReplyTo('info@example.com', 'Information');
+                //$mail->addCC('cc@example.com');
+                //$mail->addBCC('bcc@example.com');
+
+                //Attachments
+                $files_to_attach = $_FILES["business-plan"]['tmp_name']; 
+                // $mail->AddAttachment($files_to_attach, $file_name); 
+                //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+                    // Optional name
+
+                //Content
+                $mail->isHTML(false);                                  // Set email format to HTML
+                $mail->Subject = 'Application for Incubation';
+                $mes = 'Name: '.$name.'  Email: '.$email.'  Phone: '.$phone_no.'  Executive Summary: '.$summary.'  Brief of current position: '.$current_position.'  Brief of current nature of the company: '.$current_nature.'  Proposal for: '.$proposal_for.'  Applying for tide scheme: '.$tide_scheme;
+                $mail->Body = $mes;
+                
+                
+                //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+                $mail->send();
+                //echo 'Message has been sent';
+                $message = "Application Submitted Successfully";
+            }
+            catch (Exception $e) {
+                echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+            }
+
             $connection->close();
         }
-    }
+                       
+            // $statement->close();
+            
+        }
+    
 ?>
     <center><h6 style="margin-top: 9%; color: #f44242;" class="alt-font font-weight-300 letter-spacing-minus-1"><?php echo $message;?></h6></center>
     <div class="container" style="border: 1px solid black; background: black; margin-bottom: -5%;">
@@ -158,19 +173,22 @@
                              <input type="text" name="contact-email" id="email" placeholder="E-mail *"/>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="summary" id="summary" placeholder="Executive Summary" rows="3"></textarea>
+                            <textarea name="summary" id="summary" placeholder="Executive Summary (Optional for B-Plan Writing Contest)" rows="3"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="current-position" id="current-position" placeholder="A brief of your current position" rows="4"></textarea>
+                            <textarea name="current-position" id="current-position" placeholder="A brief of your current position  (Optional for B-Plan Writing Contest)" rows="4"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="current-nature" id="current-nature" placeholder="A brief of the current nature of the company seeking incubation" rows="4"></textarea>
+                            <textarea name="current-nature" id="current-nature" placeholder="A brief of the current nature of the company seeking incubation  (Optional for B-Plan Writing Contest)" rows="4"></textarea>
                         </div>
                         <div class="col-md-12">
                              <input type="text" name="proposal-for" id="proposal-for" placeholder="Is the proposal as an entry for Business Plan writing contest, seeking incubation at IIIC or both?"/>
                         </div>
                         <div class="col-md-12">
-                             <input type="text" name="tide-scheme" id="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme?"/>
+                             <input type="text" name="tide-scheme" id="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme?  (Optional for B-Plan Writing Contest)"/>
+                        </div>
+                        <div class="col-md-12">
+                             <input type="text" name="drive-link" id="drive-link" placeholder="Enter Google Drive Link to your Business Plan (In case File is not being Uploaded)"/>
                         </div>
                         <a href="http://meity.gov.in/content/technology-incubation-and-development-entrepreneurs" target="_blank" style="color: blue;margin-bottom: 2%;">What is TIDE Scheme?</a>
                         <div class="form-group col-md-6">

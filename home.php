@@ -81,7 +81,7 @@ include("header.php");
 							data-splitin="none" 
 							data-splitout="none"							
 							data-responsive_offset="on"	
-							style="z-index: 6; position:relative; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: bold; color: #fff; letter-spacing:0;"><a href="submit-bplan.php">Apply Now</a>
+							style="z-index: 6; position:relative; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: bold; color: #fff; letter-spacing:0;"><a href="apply.php">Apply Now</a>
 						</div>
 					</li>
 					<li data-transition="fade" data-slotamount="1"  data-easein="default" data-easeout="default" data-masterspeed="1500"> 
