@@ -141,7 +141,7 @@
     <div class="container" style="border: 1px solid black; background: black; margin-bottom: -5%;">
         <center>
             <h6 class="alt-font font-weight-200 letter-spacing-minus-1" style="margin-top: 2%; color: white; font-weight: 300;">
-                Fill this form to apply for Business Plan Writing Contest
+                Registrations for B-plan Writing Contest are Closed
             </h6>
         </center>
     </div>
@@ -173,19 +173,16 @@
                              <input type="text" name="contact-email" id="email" placeholder="E-mail *"/>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="summary" id="summary" placeholder="Executive Summary (Optional for B-Plan Writing Contest)" rows="3"></textarea>
+                            <textarea name="summary" id="summary" placeholder="Executive Summary" rows="3"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="current-position" id="current-position" placeholder="A brief of your current position  (Optional for B-Plan Writing Contest)" rows="4"></textarea>
+                            <textarea name="current-position" id="current-position" placeholder="A brief of your current position" rows="4"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <textarea name="current-nature" id="current-nature" placeholder="A brief of the current nature of the company seeking incubation  (Optional for B-Plan Writing Contest)" rows="4"></textarea>
+                            <textarea name="current-nature" id="current-nature" placeholder="A brief of the current nature of the company seeking incubation" rows="4"></textarea>
                         </div>
                         <div class="col-md-12">
-                             <input type="text" name="proposal-for" id="proposal-for" placeholder="Is the proposal as an entry for Business Plan writing contest, seeking incubation at IIIC or both?"/>
-                        </div>
-                        <div class="col-md-12">
-                             <input type="text" name="tide-scheme" id="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme?  (Optional for B-Plan Writing Contest)"/>
+                             <input type="text" name="tide-scheme" id="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme?"/>
                         </div>
                         <div class="col-md-12">
                              <input type="text" name="drive-link" id="drive-link" placeholder="Enter Google Drive Link to your Business Plan (In case File is not being Uploaded)"/>

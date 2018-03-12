@@ -88,9 +88,9 @@
                                     <li class="">
                                         <a href="apply.php" title="Apply">Apply</a>
                                     </li>
-                                    <!-- <li class="">
-                                        <a href="submit-bplan.php" title="Apply">Submit B-Plan</a>
-                                    </li> -->
+                                    <li class="">
+                                        <a href="E-Summit/index.html" title="E-Summit'18">E-Summit'18</a>
+                                    </li>
                                     <li class="">
                                         <a href="events.php" title="Events">Events</a>
                                     </li>
